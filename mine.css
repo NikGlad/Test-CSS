@@ -1,0 +1,17 @@
+body{
+   background-color: aqua;
+}
+p{
+   background-color: honeydew;
+}
+#intro{
+   color: rgb(16, 235, 82);
+   background-color: grey;
+}
+.first{
+   font-size: 200%;
+}
+#intro .first em {
+   color: pink; 
+   background-color:gray;
+}
