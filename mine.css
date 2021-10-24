@@ -2,16 +2,121 @@ body{
    background-color: aqua;
 }
 p{
-   background-color: honeydew;
+   background-color: honeydew; /*Фон для абзаца*/
 }
 #intro{
-   color: rgb(16, 235, 82);
-   background-color: grey;
+   color: rgb(0, 5, 2);
+   background-color: grey; /*id*/
 }
 .first{
+   text-align: center;
    font-size: 200%;
+   font-weight: bold; /*Толщина шрифта*/
 }
 #intro .first em {
+   text-align: center;/*Текст по центру*/
    color: pink; 
    background-color:gray;
+}
+div.one{
+   text-align: center;
+   font-size: 300%; /*Размер шрифта*/
+   color: #000;
+   background-color: rgb(189, 24, 24);
+   font-variant: small-caps;    /*Все заглавные буквы*/
+}
+.two{
+   text-align: right; /*Текст справа*/
+   color: rgb(83, 68, 68);
+   background-color: blanchedalmond;
+   font-family: 'Courier New';   /*Название шрифта*/
+   font-style: italic; /*Курсив*/
+}
+.taba{
+   background-color: beige;
+}
+td.top {
+   vertical-align: top; /*Выравнивание по горизонтали: верх, низ, центр*/
+}
+td.middle {
+   vertical-align: middle;
+}
+td.bottom {
+   vertical-align: bottom;
+}
+span.baseline {
+   vertical-align: baseline;  /*Разные виды выравнивания текста*/
+   font-size: 300%; 
+}
+span.sub {
+   vertical-align: sub;
+   font-size: 300%;
+}
+span.super {
+   vertical-align: super;
+   font-size: 300%;
+}
+span.pixel {
+   vertical-align: -10px;
+   font-size: 300%;
+}
+.main {
+   height: 150px; width: 400px;
+   background-color: LightSkyBlue;
+   display: inline-table;  
+}
+.paragraph {
+   display: table-cell;
+   vertical-align: middle;  /* Для div  так надо выравнивать*/
+}
+p.none {
+   text-decoration: none; /* Подчёркивание, зачёркивание и т.д*/
+}
+p.inherit {
+   text-decoration: inherit;
+}
+p.overline {
+   text-decoration: overline; 
+}
+p.underline {
+   text-decoration: underline;
+}
+p.line-through {
+   text-decoration: line-through;
+}
+.bobo{
+   text-indent: 100px;
+}
+.zoro{
+   color: blue;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px rgb(218, 23, 23);  /*Тень*/
+    
+}
+.glina{
+   font-size: 50px;
+   text-transform: capitalize; /*Каждое слово начинается с заглавной буквы*/
+}
+.gliba{
+   text-transform: uppercase; /*Все заглавные*/
+   font-size: 50px;
+}
+.gli{
+   text-transform: lowercase;  /*Все строчные буквы*/
+}
+.letter{
+   font-size: 50px;
+   letter-spacing: 50px; /*Расстояние между символами*/
+}
+.word{
+   font-size: 50px;
+   word-spacing: 30px; /*Интервал между словами*/
+}
+.space{
+   font-size: 50px;
+   white-space: nowrap;  /*Без переносов текст пока не поставить тег br*/
+}
+.pre{
+   font-size: 50px;
+   white-space: pre-wrap;
 }
