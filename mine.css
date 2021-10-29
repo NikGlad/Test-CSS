@@ -18,7 +18,7 @@ p{
    color: pink; 
    background-color:gray;
 }
-div.one{
+.one{
    text-align: center;
    font-size: 300%; /*Размер шрифта*/
    color: #000;
@@ -119,4 +119,24 @@ p.line-through {
 .pre{
    font-size: 50px;
    white-space: pre-wrap;
+   margin-top: 10px;
 }
+.pru{
+   padding: 10px;
+   border: 5px solid green; /*Рамка*/
+   text-align: center;
+}
+.pro{
+   padding: 50px;        /*Высота рамки*/
+    border-style: outset;  /*Стиль рамки*/
+    border-width: 10px;  /*толщина линии рамки*/
+    border: 5px solid green;    
+    width: 90px;           /*ширина элемента*/
+    height: 90px;        /*Высота элемента внутри div*/
+}
+.pr{ 
+   font-size: 50px;  
+    width: 30%;     /*ширина элемента*/
+    height: 200px;   /*Высота элемента внутри div*/
+}
+
