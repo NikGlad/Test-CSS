@@ -1,5 +1,6 @@
-body{
-   background-color: aqua;
+div{
+   background-color: wheat;
+  
 }
 p{
    background-color: honeydew; /*Фон для абзаца*/
@@ -139,4 +140,44 @@ p.line-through {
     width: 30%;     /*ширина элемента*/
     height: 200px;   /*Высота элемента внутри div*/
 }
-
+.privet{
+   padding: 30px;
+    background-image: url("http://www.sololearn.com/images/tree.jpg");
+    color: rgb(12, 11, 11);
+    background-repeat:no-repeat; /*фон не повторяется*/ 
+    font-weight: bold;
+    font-size: 30px;
+}
+.glo{
+   background-image: url(tree.jpg); /*фон картинка*/
+   background-attachment: fixed;  /*фон без прокрутки*/
+}
+ol.lower-alpha {
+   list-style-type: lower-alpha; /*списки*/
+}
+ul.circle {
+   list-style-type: circle;
+}
+ul.square {
+   list-style-type: square;
+}
+.ha {
+   list-style-image: url("http://www.sololearn.com/images/bullet.jpg");
+   list-style-position: inside;
+}
+table {
+   border-collapse: separate;  /*таблицы*/
+   border-spacing: 20px 40px;
+   background-color: white;
+   margin-left: 50%;
+}
+caption {
+   caption-side: bottom; /*заголовок таблицы: низ, верх*/
+}
+table.auto {
+   table-layout: auto;
+   border: 1px solid gray;
+   border-collapse: separate;
+   width: 100%;
+   border: 1px solid gray;
+}
