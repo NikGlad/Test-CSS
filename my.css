@@ -201,3 +201,83 @@ a:hover {                      /*Ссылки*/
     right: 50%;
     color: red;
 }
+   img {
+      float: left;       /*фиксация элемента с какой нибудь стороны*/
+      width: 120px;
+      margin-right: 10px;
+  }
+  .lwps {
+      width: 1000px;
+  } 
+  .lrps{
+   width: 150px;
+   height: 150px;
+   background-color: LightBlue; /*выход за границы коробки*/
+  }
+  .lrus{
+   width: 500px;
+   height: 150px;
+   background-color: LightBlue;  /*прокрутка выхода за границы*/
+   float: left;
+   overflow: scroll;
+  }
+  .blue {
+   z-index: 3;
+   margin-top: 200px;
+   position: relative;
+   background-color: #8EC4D0;
+   margin-bottom: 15px;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+}                     /*наложение элементов  z-index*/
+.red {
+   z-index: 2;
+   position: relative;
+   background-color: #FF4D4D;
+   width: 120px;
+   height: 120px;
+   color: #FFF;
+   margin-top: -50px;
+   margin-left: 50px;
+}
+.yo{
+   background-image: url(3.png); /*префиксы браузеров*/
+   height: 200px;
+   width: 50%;
+}
+.tr{
+   border-radius: 20px;
+    background-color: green; /*закругление углов элемента*/
+    color: white;
+    padding: 50px;
+    width: 50%;
+    margin-top: 40px;
+}
+.ti{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   background-color: rgb(128, 47, 0);   /*круг*/
+   color: white;
+   text-align: center;
+   color: #000;
+   font-weight: bolder;
+   margin-top: 100px;
+}
+.ki{
+   margin-top: 100px;
+   text-shadow: -2px 2px blue; /*тень*/
+}
+.bi{ 
+   margin-top: 50px;     /*тень*/
+   text-shadow: 5px 10px 2px #93968f, -3px 6px 5px #58d1e3;
+}
+#parent p:first-child {
+   color: green;           /*псевдоклассы*/
+   text-decoration: underline;
+}
+#parent p:last-child {
+   color: red;
+   text-decoration: underline;   
+}
