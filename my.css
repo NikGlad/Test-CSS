@@ -281,3 +281,53 @@ a:hover {                      /*Ссылки*/
    color: red;
    text-decoration: underline;   
 }
+.kio{
+   
+   float: left;
+   width: 300px;       /*градиент*/
+   height: 100px;
+   margin: 4px;
+   color: #FFF;  
+   background: linear-gradient(DeepSkyBlue, rgb(129, 214, 18));
+}
+.kia{
+   float: left;
+   width: 300px; 
+   height: 100px;      /*градиент мультиколор*/
+   margin: 4px;
+   color: #FFF;  
+   background: linear-gradient(blue, yellow, green, pink, white);
+}
+.fi{
+   float: left;
+   width: 300px; 
+   height: 100px;
+   margin: 4px;          /*градиент справа(слева, снизу, сверху)*/
+   color: #FFF;  
+   background:-webkit-linear-gradient(left, blue, green, white);
+   background:-moz-linear-gradient(left, blue, green, white);
+   background:-ms-linear-gradient(left, blue, green, white);
+} 
+.fab{
+   float: left;
+   width: 300px; 
+   height: 100px;    /*повторение линейного градиента*/
+   margin: 4px;
+   color: #FFF;
+   background: repeating-linear-gradient(blue, green 20px);
+}
+.fada{
+   margin-top: 200px;
+   height: 150px;     
+   width: 200px;     /*форма градиента*/
+   color: #FFF;
+   background: -moz-radial-gradient(green, yellow, blue);   
+   background: -webkit-radial-gradient(green, yellow, blue);
+}
+.fara{
+   height: 150px;
+   width: 200px;
+   border: 1px solid #000;  /*размер изображения в рамке*/
+   background: url(1.png) no-repeat 50% 50%;
+   background-size: 100px 100px;
+}
