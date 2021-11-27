@@ -326,8 +326,133 @@ a:hover {                      /*Ссылки*/
 }
 .fara{
    height: 150px;
-   width: 200px;
+   width: 12.35rem;
    border: 1px solid #000;  /*размер изображения в рамке*/
    background: url(1.png) no-repeat 50% 50%;
    background-size: 100px 100px;
+}
+.fira{
+   width: 400px;
+   height: 300px;     /*мультифон (несколько фоновых рисунков)*/
+   background-image: url("http://www.sololearn.com/uploads/css_logo.png"), url("http://www.sololearn.com/uploads/better-code.jpg");
+   background-position: right bottom, left top;
+   background-repeat: no-repeat;
+} 
+#img1 {
+   opacity: 1;
+}
+#img2 {
+   opacity: 0.5;     /*прозрачность элементов*/
+}
+#img3 {
+   opacity: 0.25;
+}
+.fra{
+   margin-top: 150px;
+   width: 50px;  /*изменение размера объекта при наведении анимация*/
+   height: 50px;
+   background: #32CD32;     
+   transition: width 3s;
+   -webkit-transition: width 3s;
+}
+.fra:hover{
+   width: 250px;
+}
+.empty-div{
+   position: relative;
+   height: 100px;
+   width: 100px;
+   margin: 30px;
+   padding: 10px;
+   border: 1px solid black;
+}                       /*поворот элемента*/
+.green-div{
+   padding: 50px;
+   position: absolute;
+   background-color: #8bc34a;
+   border: 1px solid white;
+   transform: rotate(15deg);
+   transform-origin: 25% 75%;
+   -webkit-transform: rotate(15deg);
+   -webkit-transform-origin: 25% 75%;
+}
+.fr{
+   padding: 50px;
+   position: absolute;
+   background-color: #32CD32;  /*перемещение элемента по диагонали*/
+   transform:translate(100px, 50px);
+   -webkit-transform:translate(100px, 50px);
+}
+.fu{
+   margin-top: 200px;
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   animation-name: colorchange;
+   animation-duration: 1s;
+   -webkit-animation-name: colorchange;
+   -webkit-animation-duration: 1s;
+}
+@keyframes colorchange {
+   0% {background-color: red; }
+   25% {background-color: green; }   /*анимация изменение цвета объекта в течении времени*/
+   50% {background-color: blue; }
+   75% {background-color: rgb(166, 255, 0); }
+   100% {background-color: rgb(121, 55, 99); }
+}
+div.empty-div {
+   position: relative;
+   height: 200px;
+   width: 200px;
+   margin: 30px;
+   padding: 10px;
+   border: 1px solid black;
+   perspective: 100px;
+   -webkit-perspective: 100px;  /*переворот объектаа в другую плоскость*/
+}
+div.green-div {
+   padding: 60px;
+   position: absolute;
+   background-color: #8bc34a;
+   border: 1px solid white;
+   transform: rotateX(45deg);
+   -webkit-transform: rotateX(45deg);
+}
+.fikus{
+   width: 130px;
+   height: 100px;
+}
+.dropshadow {
+   filter: drop-shadow(5px 9px 2px blue);  /*тень справа*/
+   -webkit-filter: drop-shadow(5px 9px 2px blue);
+}
+.filtered{
+      margin-top: 200px;    
+      filter: grayscale(100%);   /*серый рисунок стал*/
+    } 
+.original{
+   margin-top: 200px;
+} 
+.gogo{
+   margin-top: 600px;
+   filter: sepia(100%);  /*сепия*/
+}
+.gogi{
+   filter: invert(70%);  /*инвертирование*/
+ }
+ .gog{
+    margin-top: 800px;      /*непрозрачность*/
+    filter: opacity(70%); 
+ }
+ .gig{
+   margin-top: 1000px;      /*яркость*/
+   filter: brightness(50%);
+}
+.gog{
+   margin-top: 800px;      /*контрасность*/
+   filter: brightness(1.9);
+}
+.gpg{
+   margin-top: 1150px;      /*размытость*/
+   filter:blur(5px);
 }
